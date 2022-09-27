@@ -1,10 +1,49 @@
+@font-face {
+    font-family: 'burgess-regular';
+    src: url('fonts/burgess-regular.eot');
+    src: url('fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/burgess-regular.woff') format('woff'),
+         url('fonts/burgess-regular.woff2') format('woff2'),
+         url('fonts/burgess-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	padding: 70px 0;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.heading{
+	text-align: center;
+}
+
+.author {
+	background-color: yellow;
+}
+
+a.author {
+	text-decoration: none;
+}
+
+a.author:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
 }
 
 h1 {
 	font-size: 50px;
+	marigin: 0px;
+	letter-spacing: -1px;
 }
 
 h2{
@@ -13,6 +52,7 @@ h2{
 
 h1,h2 {
 	font-weight: 400;
+	font-family: "burgess-regular", serif;
 }
 
 
