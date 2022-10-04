@@ -35,11 +35,13 @@ top: 10px;
   font-family: corundum-text, serif;
 }
 
-h2 {
+/*h2 {
   color: ghostwhite;
   font-size: 14px;
-  font-family: corundum-text, serif;
-}
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
 
 h3 {
   position: relative;
@@ -61,7 +63,17 @@ h6 {
   font-family: corundum-text, serif;
 }
 
-
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: corundum-text, serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 
 
