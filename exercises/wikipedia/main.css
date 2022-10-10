@@ -1,0 +1,52 @@
+body {
+	background-color: lightgray;
+}
+
+/*h1 {
+	font-size: 30px;
+	color: hsl(30, 100%, 50%);
+	color: black;
+}
+
+blockquote {
+	 text-align: left;
+	 max-width: 400px;
+}
+
+img {
+	align-content: right;
+}*/
+
+.wrapper {
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+	/*max-width: 800;*/
+}
+
+.item {
+	/*width: 50%;
+	height: ;*/
+}
+	^thisallowsforittobecollums
+
+
+.intro {
+	background-color: red;
+}
+
+
+.coat {
+	background-color: blue;
+}
+
+.fur {
+	background-color: pink;
+}
+
+
+.item {
+	display: flex;
+	/*background-color: green;*/
+	margin-top: 20px;
+}
