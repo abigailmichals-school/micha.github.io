@@ -1,0 +1,117 @@
+body {
+  /*background: linear-gradient(to bottom right, #3333cc 0%, #ff9999 100%);*/
+  background-color: #9D8DE8;
+  height: 170vh;
+  font-family: courier;
+}
+
+/*<style>       
+    a{
+        cursor: <img src="imgs/star.png", default;
+    }*/
+
+/*.custom {
+   The second value here is a fallback. 
+  cursor: url(imgs/star.png), auto;
+}*/
+
+.pointer         { cursor: pointer; }
+
+body {
+  cursor: url('star.png'),auto;
+}
+
+body {
+  cursor: url(imgs/star.png),auto;
+}
+
+h1 {
+  position: relative;
+top: 8px;
+  color: ghostwhite;
+  font-size: 23px;
+  font-family: bely-display, sans-serif;
+
+}
+
+h2 {
+  color: ghostwhite;
+  font-size: 14px;
+  font-family: corundum-text, serif;
+}
+
+h3 {
+  position: relative;
+top: 10px;
+  color: ghostwhite;
+  font-family: corundum-text, serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+h5 {
+  color: ghostwhite;
+  font-size: 23px;
+  font-family: bely-display, sans-serif;
+}
+
+h6 {
+  color: blue;
+  font-size: 23px;
+  font-family: bely-display, sans-serif;
+  color: ghostwhite;
+}
+
+/* If the browser window is smaller than 650px, the background color will change to black and the text to white: */
+@media (max-width: 650px) {
+  body {
+    background-color: blue;
+    color:  white;
+  }
+}
+
+/* If the browser window is smaller than 650px, the background color will change to black and the text to white: */
+@media (max-height: 650px) {
+  body {
+    background-color: purple;
+    color:  white;
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  flex-direction: column;
+  padding:10px;
+  background: linear-gradient(to bottom right, #3333cc 0%, #ff9999 100%);
+  min-height: 300px;
+  color: ghostwhite;
+  font-family: corundum-text, serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align:  center;
+}
+
+.item1 {
+  background-color: #9F8DE8;
+  justify-content: center;
+}
+
+.item2 {
+  background-color:  #9F8DE8;
+  justify-content: center;
+}
+
+.item3 {
+  background-color:  #9F8DE8;
+  justify-content: center;
+}
+
+
+
+
+
+
+
