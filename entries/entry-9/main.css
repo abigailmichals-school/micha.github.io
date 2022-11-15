@@ -1,0 +1,230 @@
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+
+body {
+  /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  background-size: 400% 400%;
+  height: 100vh;
+  max-height: 10vh;
+}
+
+max-width: 1440px;
+
+body {
+  cursor: url('star.png'),auto;
+}
+
+body {
+  cursor: url(imgs/star.png),auto;
+}
+
+h1 {
+  position: relative;
+  top: 8px;
+  color: ghostwhite;
+  font-size: 23px;
+  font-family: courier-std, monospace;
+  font-style: normal;
+}
+
+h2 {
+  color: ghostwhite;
+  font-size: 14px;
+  font-family: tablet-gothic, sans-serif;
+  font-style: normal;
+}
+
+h3 {
+  position: relative;
+top: 10px;
+  color: ghostwhite;
+  font-family: tablet-gothic, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+}
+
+h5 {
+  color: ghostwhite;
+  font-size: 23px;
+  font-family: courier-std, monospace;
+   font-style: normal;
+}
+
+h6 {
+  color: blue;
+  font-size: 23px;
+  font-family: courier-std, monospace;
+  color: ghostwhite;
+  font-style: normal;
+}
+
+.funky-cursor {
+  cursor: url(../imgs/star.png), auto;
+}
+
+.faerie:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 2s ease infinite;
+  -moz-animation: slideBackground 2s ease infinite;
+  animation: slideBackground 2s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.imgfilters img {
+  display: block;
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.imgfilters img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+/*pick a color word animation*/
+
+.words span{
+  opacity: 0;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.words-2 span{
+  animation: animateWords 10s linear infinite 0s;
+  font-family: tablet-gothic, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-style: normal;
+}
+
+.words span:nth-child(2) {
+  animation-delay: 1s;
+  color: #f94144;
+}
+.words span:nth-child(3) {
+  animation-delay: 2s;
+  color: #f8961e;
+}
+.words span:nth-child(4) {
+  animation-delay: 3s;
+  color: #277da1
+}
+.words span:nth-child(5) {
+  animation-delay: 4s;
+  color: #43aa8b;
+}
+.words span:nth-child(6) {
+  animation-delay: 5s;
+  color: #277da1;
+}
+
+@keyframes animateWords {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+    25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+/* spinning image */
+
+.tarot {
+margin-top: 60px;
+transition: all 0.5s ease;
+}
+
+.tarot:hover {
+  -webkit-transform: rotate(-360deg) scale(1);
+  transform: rotate(-360deg) scale(1);
+  cursor: pointer;
+}
+
+div.fixedtop {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+div.fixedbottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.star {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      mix-blend-mode: color-dodge;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+    .star:before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+    .star:after {
+      position: absolute;
+      display: block;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+
+
