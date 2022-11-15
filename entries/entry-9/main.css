@@ -73,8 +73,7 @@ h6 {
 
 .faerie:hover {
   cursor: pointer;
-  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
-  background-size: 1000% 1000%;
+  
 
   -webkit-animation: slideBackground 2s ease infinite;
   -moz-animation: slideBackground 2s ease infinite;
