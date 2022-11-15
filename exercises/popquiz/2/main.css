@@ -1,0 +1,44 @@
+body {
+	background-color: lightpink;
+}
+
+section {
+  display:  flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items:  center;
+  height:  100vh;
+}
+
+.date {
+	color:ghostwhite;
+	font-family: courier;
+	text-align: center;
+	font-size: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.date:hover {
+  background-color: #powderblue;
+  cursor:  pointer;
+}
+
+.button {
+  color:lightpink;
+  font-family: courier;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 20px;
+    border-radius: 20px;
+    background-color:  white;
+    margin-top: 20px;
+    position: relative;
+}
+
+.button:hover {
+  background-color: powderblue;
+  cursor:  pointer;
+  color: ghostwhite;
+  font-family: arial;
+}
